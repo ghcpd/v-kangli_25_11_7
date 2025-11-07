@@ -1,0 +1,221 @@
+{
+  "relations": [
+    {
+      "id": "BelongsTo",
+      "name": "Person belongs to Department",
+      "source_entity": "Person",
+      "target_entity": "Department",
+      "description": "A person works in or belongs to a department"
+    },
+    {
+      "id": "ManagesProject",
+      "name": "Person manages Project",
+      "source_entity": "Person",
+      "target_entity": "Project",
+      "description": "A person manages or leads a project"
+    },
+    {
+      "id": "WorksAt",
+      "name": "Person works at Company",
+      "source_entity": "Person",
+      "target_entity": "Company",
+      "description": "A person is employed at a company"
+    },
+    {
+      "id": "HasPosition",
+      "name": "Person has Position",
+      "source_entity": "Person",
+      "target_entity": "Position",
+      "description": "A person holds a specific position or job title"
+    },
+    {
+      "id": "LocatedIn",
+      "name": "Entity located in Location",
+      "source_entity": ["Company", "Department", "Team"],
+      "target_entity": "Location",
+      "description": "An entity is located in a specific location"
+    },
+    {
+      "id": "OwnsProject",
+      "name": "Company owns Project",
+      "source_entity": "Company",
+      "target_entity": "Project",
+      "description": "A company owns or sponsors a project"
+    },
+    {
+      "id": "OperatesIn",
+      "name": "Company operates in Industry",
+      "source_entity": "Company",
+      "target_entity": "Technology",
+      "description": "A company operates in a specific industry or technology domain"
+    },
+    {
+      "id": "HasDepartment",
+      "name": "Company has Department",
+      "source_entity": "Company",
+      "target_entity": "Department",
+      "description": "A company has or manages a department"
+    },
+    {
+      "id": "UsesTechnology",
+      "name": "Project uses Technology",
+      "source_entity": "Project",
+      "target_entity": "Technology",
+      "description": "A project uses or employs a specific technology"
+    },
+    {
+      "id": "ProducesProduct",
+      "name": "Company produces Product",
+      "source_entity": "Company",
+      "target_entity": "Product",
+      "description": "A company produces or develops a product"
+    },
+    {
+      "id": "HasTeam",
+      "name": "Company has Team",
+      "source_entity": "Company",
+      "target_entity": "Team",
+      "description": "A company has or manages a team"
+    },
+    {
+      "id": "PersonInTeam",
+      "name": "Person is in Team",
+      "source_entity": "Person",
+      "target_entity": "Team",
+      "description": "A person is a member of a team"
+    },
+    {
+      "id": "TeamFocusArea",
+      "name": "Team has focus area Technology",
+      "source_entity": "Team",
+      "target_entity": "Technology",
+      "description": "A team focuses on or specializes in a technology"
+    },
+    {
+      "id": "ClientContract",
+      "name": "Company signs contract with Client",
+      "source_entity": "Company",
+      "target_entity": "Client",
+      "description": "A company has a contract or business relationship with a client"
+    },
+    {
+      "id": "ClientUses",
+      "name": "Client uses Product",
+      "source_entity": "Client",
+      "target_entity": "Product",
+      "description": "A client uses or is subscribed to a product"
+    },
+    {
+      "id": "ProjectInvolves",
+      "name": "Project involves Team",
+      "source_entity": "Project",
+      "target_entity": "Team",
+      "description": "A team is involved in or works on a project"
+    },
+    {
+      "id": "ProjectStatus",
+      "name": "Project has Status",
+      "source_entity": "Project",
+      "target_entity": "Project",
+      "description": "Project status tracking"
+    },
+    {
+      "id": "DepartmentHead",
+      "name": "Person heads Department",
+      "source_entity": "Person",
+      "target_entity": "Department",
+      "description": "A person is the head or manager of a department"
+    },
+    {
+      "id": "ProductVersion",
+      "name": "Product has Version",
+      "source_entity": "Product",
+      "target_entity": "Technology",
+      "description": "A product is built on or uses a specific technology version"
+    },
+    {
+      "id": "TechnologyVersion",
+      "name": "Technology Version",
+      "source_entity": "Technology",
+      "target_entity": "Technology",
+      "description": "Technology version relationships"
+    },
+    {
+      "id": "CompanyPartnership",
+      "name": "Company partners with Company",
+      "source_entity": "Company",
+      "target_entity": "Company",
+      "description": "Two companies have a partnership or collaboration"
+    },
+    {
+      "id": "PersonMentor",
+      "name": "Person mentors Person",
+      "source_entity": "Person",
+      "target_entity": "Person",
+      "description": "One person mentors or supervises another person"
+    },
+    {
+      "id": "OfficeType",
+      "name": "Location has Office Type",
+      "source_entity": "Location",
+      "target_entity": "Technology",
+      "description": "A location has a specific type of office"
+    },
+    {
+      "id": "ProjectTimeline",
+      "name": "Project has Timeline",
+      "source_entity": "Project",
+      "target_entity": "Project",
+      "description": "Project timeline information"
+    },
+    {
+      "id": "EmployeeCount",
+      "name": "Department has Employee Count",
+      "source_entity": "Department",
+      "target_entity": "Person",
+      "description": "A department has a specific number of employees"
+    },
+    {
+      "id": "SalaryRange",
+      "name": "Position has Salary Range",
+      "source_entity": "Position",
+      "target_entity": "Position",
+      "description": "A position has a specific salary range"
+    },
+    {
+      "id": "ProjectBudget",
+      "name": "Project has Budget",
+      "source_entity": "Project",
+      "target_entity": "Project",
+      "description": "Project budget information"
+    },
+    {
+      "id": "IndustryCategory",
+      "name": "Company operates in Industry Category",
+      "source_entity": "Company",
+      "target_entity": "Technology",
+      "description": "A company operates in a specific industry category"
+    },
+    {
+      "id": "LocationCountry",
+      "name": "Location is in Country",
+      "source_entity": "Location",
+      "target_entity": "Location",
+      "description": "A city or location is in a specific country"
+    },
+    {
+      "id": "PersonAge",
+      "name": "Person Age Information",
+      "source_entity": "Person",
+      "target_entity": "Person",
+      "description": "Age information for a person"
+    },
+    {
+      "id": "CollaborationOn",
+      "name": "Team collaborates on Project",
+      "source_entity": "Team",
+      "target_entity": "Project",
+      "description": "A team collaborates or works together on a project"
+    }
+  ]
+}
