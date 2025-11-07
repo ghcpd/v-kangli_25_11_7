@@ -1,0 +1,12 @@
+{
+  "EmployeeOf": [
+    {"person": "John Doe", "company": "OpenAI"},
+    {"person": "Jane Smith", "company": "Google"}
+  ],
+  "ManagesProject": [
+    {"person": "John Doe", "project": "Alpha"}
+  ],
+  "CompanyInIndustry": [
+    {"company": "OpenAI", "industry": "Technology"}
+  ]
+}
