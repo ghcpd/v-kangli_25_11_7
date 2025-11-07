@@ -1,0 +1,22 @@
+{
+  "ManagesProject": [
+    {"person": "John Doe", "project": "Alpha"},
+    {"person": "Jane Smith", "project": "Delta"},
+    {"person": "Michael Brown", "project": "Zeta"},
+    {"person": "Sarah Wilson", "project": "Kappa"},
+    {"person": "David Johnson", "project": "Lambda"},
+    {"person": "Tom Anderson", "project": "Nova"},
+    {"person": "Anna Thompson", "project": "Photon"},
+    {"person": "Daniel Kim", "project": "AirFlow"}
+  ],
+  "EmployedBy": [
+    {"person": "John Doe", "company": "OpenAI", "position": "Researcher"},
+    {"person": "Jane Smith", "company": "Google", "position": "Engineer"},
+    {"person": "Michael Brown", "company": "Microsoft", "position": "Senior Developer"},
+    {"person": "Sarah Wilson", "company": "Apple", "position": "Product Manager"},
+    {"person": "David Johnson", "company": "Amazon", "position": "Data Scientist"},
+    {"person": "Emily Davis", "company": "Meta", "position": "UX Designer"},
+    {"person": "Robert Miller", "company": "Tesla", "position": "AI Specialist"},
+    {"person": "Lisa Garcia", "company": "Netflix", "position": "Software Engineer"}
+  ]
+}

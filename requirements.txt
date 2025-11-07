@@ -1,0 +1,2 @@
+# Minimal requirements for KGEB baseline
+python-dateutil
