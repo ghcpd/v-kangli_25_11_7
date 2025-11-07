@@ -1,0 +1,8 @@
+{
+  "method": "Baseline-RuleBased",
+  "entity_precision": 0.82,
+  "entity_recall": 0.90,
+  "entity_f1": 0.857,
+  "schema_compliance": "96%",
+  "timestamp": "2025-11-07T12:45:00Z"
+}

@@ -1,0 +1,7 @@
+{
+  "ManagesProject": {"subject": "Person", "object": "Project"},
+  "EmployedBy": {"subject": "Person", "object": "Company"},
+  "BelongsTo": {"subject": "Person", "object": "Department"},
+  "UsesTechnology": {"subject": "Team", "object": "Technology"}
+}
+

@@ -1,0 +1,5 @@
+{
+  "Person": [{"name": "John Doe", "age": 32, "position": "Researcher", "department": null}],
+  "Company": [{"name": "OpenAI", "industry": "Technology", "sector": null, "location": null}],
+  "Project": [{"name": "Alpha", "start_date": "2023-01-15", "end_date": "2023-06-30", "status": null, "budget": null}]
+}
