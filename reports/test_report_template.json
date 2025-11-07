@@ -1,0 +1,10 @@
+{
+  "method": "<method-name>",
+  "entity_precision": 0.0,
+  "entity_recall": 0.0,
+  "entity_f1": 0.0,
+  "relation_consistency_pct": 0.0,
+  "schema_compliance": "0%",
+  "timestamp": "<iso-timestamp>",
+  "notes": "Use this template for manual result annotation and error analysis. List false positives and false negatives."
+}
