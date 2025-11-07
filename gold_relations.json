@@ -1,0 +1,12 @@
+{
+  "BelongsTo": [
+    {"person": "John Zhang", "department": "R&D"},
+    {"person": "Lisa Li", "department": "Marketing"}
+  ],
+  "OwnsProject": [
+    {"company": "Tencent Inc.", "project": "Smart City Construction"}
+  ],
+  "UsesTechnology": [
+    {"team": "AI R&D Team", "technology": "Deep Learning Platform"}
+  ]
+}

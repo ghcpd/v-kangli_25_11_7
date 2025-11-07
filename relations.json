@@ -1,0 +1,7 @@
+{
+  "relations": [
+    {"name": "BelongsTo", "from": "Person", "to": "Department"},
+    {"name": "OwnsProject", "from": "Company", "to": "Project"},
+    {"name": "UsesTechnology", "from": "Team", "to": "Technology"}
+  ]
+}

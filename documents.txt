@@ -1,3 +1,6 @@
+John Zhang, age: 35, position: Engineer, department: R&D. He works at Tencent Inc., located in Shenzhen. Project: Smart City Construction started 2024-01-01 and ends 2025-12-31. Budget $5,000,000.
+
+Lisa Li, age: 42, position: Manager, department: Marketing. She is part of Marketing Department. Team: AI R&D Team uses Deep Learning Platform.
 John Doe, age 32, works at OpenAI as a Researcher.
 Jane Smith, age 28, works at Google as an Engineer.
 Michael Brown, age 45, works at Microsoft as a Senior Developer.
