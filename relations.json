@@ -1,0 +1,213 @@
+{
+  "BelongsTo": {
+    "description": "Person belongs to Department",
+    "source_entity": "Person",
+    "target_entity": "Department",
+    "source_attr": "department",
+    "target_attr": "name"
+  },
+  "WorksAt": {
+    "description": "Person works at Company",
+    "source_entity": "Person",
+    "target_entity": "Company",
+    "source_attr": null,
+    "target_attr": "name"
+  },
+  "ManagesProject": {
+    "description": "Person manages Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "LeadsProject": {
+    "description": "Person leads Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "OverseesProject": {
+    "description": "Person oversees Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "SupervisesProject": {
+    "description": "Person supervises Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "HandlesProject": {
+    "description": "Person handles Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "CoordinatesProject": {
+    "description": "Person coordinates Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "DirectsProject": {
+    "description": "Person directs Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "OwnsProject": {
+    "description": "Company owns Project",
+    "source_entity": "Company",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "UsesTechnology": {
+    "description": "Team uses Technology",
+    "source_entity": "Team",
+    "target_entity": "Technology",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "DevelopsProduct": {
+    "description": "Company develops Product",
+    "source_entity": "Company",
+    "target_entity": "Product",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "SignsContract": {
+    "description": "Client signs contract with Company",
+    "source_entity": "Client",
+    "target_entity": "Company",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "LocatedIn": {
+    "description": "Company located in Location",
+    "source_entity": "Company",
+    "target_entity": "Location",
+    "source_attr": "location",
+    "target_attr": "city"
+  },
+  "HasPosition": {
+    "description": "Person has Position",
+    "source_entity": "Person",
+    "target_entity": "Position",
+    "source_attr": "position",
+    "target_attr": "title"
+  },
+  "PartOfTeam": {
+    "description": "Person is part of Team",
+    "source_entity": "Person",
+    "target_entity": "Team",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "ManagesDepartment": {
+    "description": "Person manages Department",
+    "source_entity": "Person",
+    "target_entity": "Department",
+    "source_attr": "name",
+    "target_attr": "head"
+  },
+  "WorksOnProject": {
+    "description": "Person works on Project",
+    "source_entity": "Person",
+    "target_entity": "Project",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "UsesProduct": {
+    "description": "Client uses Product",
+    "source_entity": "Client",
+    "target_entity": "Product",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "CollaboratesWith": {
+    "description": "Company collaborates with Company",
+    "source_entity": "Company",
+    "target_entity": "Company",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "ReportsTo": {
+    "description": "Person reports to Person",
+    "source_entity": "Person",
+    "target_entity": "Person",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "InvolvesTechnology": {
+    "description": "Project involves Technology",
+    "source_entity": "Project",
+    "target_entity": "Technology",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "DeliversTo": {
+    "description": "Project delivers to Client",
+    "source_entity": "Project",
+    "target_entity": "Client",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "ManagedBy": {
+    "description": "Department managed by Person",
+    "source_entity": "Department",
+    "target_entity": "Person",
+    "source_attr": "head",
+    "target_attr": "name"
+  },
+  "ContainsTeam": {
+    "description": "Department contains Team",
+    "source_entity": "Department",
+    "target_entity": "Team",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "ProducesProduct": {
+    "description": "Project produces Product",
+    "source_entity": "Project",
+    "target_entity": "Product",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "RequiresTechnology": {
+    "description": "Product requires Technology",
+    "source_entity": "Product",
+    "target_entity": "Technology",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "BasedIn": {
+    "description": "Team based in Location",
+    "source_entity": "Team",
+    "target_entity": "Location",
+    "source_attr": "name",
+    "target_attr": "city"
+  },
+  "ServesClient": {
+    "description": "Company serves Client",
+    "source_entity": "Company",
+    "target_entity": "Client",
+    "source_attr": "name",
+    "target_attr": "name"
+  },
+  "OperatesIn": {
+    "description": "Company operates in Location",
+    "source_entity": "Company",
+    "target_entity": "Location",
+    "source_attr": "name",
+    "target_attr": "city"
+  }
+}
+

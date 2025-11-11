@@ -1,0 +1,27 @@
+# Enterprise Knowledge Graph Extraction Benchmark (KGEB)
+# Python Dependencies
+
+# Core dependencies
+# Python 3.8+ required
+
+# Data processing
+# Note: In production, you might want to add:
+# spacy>=3.4.0
+# transformers>=4.20.0
+# torch>=1.12.0
+# numpy>=1.21.0
+# pandas>=1.3.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+pytest-mock>=3.7.0
+
+# Code quality
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Utilities
+python-dateutil>=2.8.0
+
